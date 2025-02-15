@@ -74,69 +74,23 @@ PerOculus/
 
 
 
-🚀 Running the System
-🔹 1. Start the AI Disaster Prediction (Prediction Layer)
-bash
-Copy
-Edit
-python Prediction_Layer/weather_prediction.py
-Or C++ version:
+### 🚀 Future Enhancements
+- **ROS Integration** 🤖 – Full AI automation for search & rescue missions  
+- **5G/LoRa Connectivity** 🛁 – Real-time long-range UAV telemetry  
+- **Satellite Image Processing** 🛰️ – Integrating ISRO/NOAA data for enhanced disaster mapping  
 
-bash
-Copy
-Edit
-g++ -o weather_prediction Prediction_Layer/weather_prediction.cpp
-./weather_prediction
-🔹 2. Start the Drone Flight Control (Action Layer)
-bash
-Copy
-Edit
-python Action_Layer/drone_control.py
-Or:
+---
 
-bash
-Copy
-Edit
-g++ -o drone_control Action_Layer/drone_control.cpp -lmavsdk
-./drone_control
-🔹 3. Start AI Object Detection (Anomaly Detection Layer)
-bash
-Copy
-Edit
-python Anomaly_Detection/object_detection.py
-Or:
+### 🎯 Team & Credits  
+**Project Name:** PerOculus  
+**Team:** Permutes  
 
-bash
-Copy
-Edit
-g++ -o object_detection Anomaly_Detection/object_detection.cpp `pkg-config --cflags --libs opencv4`
-./object_detection
-🔹 4. Start Mission Control Dashboard (Mission Planning Layer)
-bash
-Copy
-Edit
-python Mission_Control/app.py
-Access at: http://127.0.0.1:5000
-
-📸 Demo Screenshots
-Autonomous Flight	AI Object Detection	Mission Control
-✈️ GPS Waypoints	🔍 People & Flood Detection	📡 Live Telemetry
-🤖 Future Improvements
-🚀 ROS Integration – Full AI automation for search & rescue
-📡 5G/LoRa Connectivity – Real-time long-range drone telemetry
-🛰 Satellite Image Processing – Direct ISRO/NOAA data for improved disaster mapping
-
-👥 Team & Credits
-🔹 Project Name: PerOculus
-🔹 Team: Permutes
-🔹 Members:
-
-Tanishq Som – AI & UAV Control
-Sumit Sharma – AI & Software Development
-Manthan Dixit – IoT & Embedded Systems
-Harshita Agarwal – Data Analysis & GIS
-Soham Balwadkar – Web & Backend Systems
-🚀 Built for Hackofiesta 6.0 (IIIT Lucknow)
+👥 **Members:**  
+- **Tanishq Som** – AI & UAV Control  
+- **Sumit Sharma** – AI & Software Development  
+- **Manthan Dixit** – IoT & Embedded Systems  
+- **Harshita Agarwal** – Data Analysis & GIS  
+- **Soham Balwadkar** – Web & Backend Systems  
 
 📩 Contact & Support
 📧 Email: tanishqsom19@gmail.com
