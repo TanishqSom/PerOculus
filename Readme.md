@@ -1,5 +1,5 @@
 #  PerOculus – AI-Powered Disaster Response Drone  
-### Hackofiesta 6.0 | IIIT Lucknow | Team Permutes  
+### Team Permutes  
 
 **PerOculus** is an AI-driven UAV system designed for **disaster response, search & rescue, and public safety.**  
 Using **AI, Computer Vision, and real-time UAV telemetry**, PerOculus can:  
